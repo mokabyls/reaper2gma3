@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mokabyls.github.io/reaper2gma3/sitemap.xml
