@@ -127,6 +127,19 @@ code, .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 .help-control > span:first-child { width: 17px; height: 17px; display: grid; place-items: center; border: 1px solid currentColor; font-size: 0.64rem; line-height: 1; }
 .help-control > span:last-child { font-size: 0.76rem; }
 .help-control.active { color: var(--accent-ink); background: var(--accent); }
+
+/* Sélecteur de langue: la locale active est affichée, le menu propose les autres. */
+.locale-switcher { position: relative; }
+.locale-control { display: inline-flex; align-items: center; gap: 7px; }
+.locale-control.is-open { color: var(--accent-ink); background: var(--accent); }
+.locale-caret { width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 5px solid currentColor; }
+.locale-menu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 60; display: grid; min-width: 190px; border: var(--bw) solid var(--border); background: var(--surface); box-shadow: var(--step) var(--step) 0 var(--border); }
+.locale-option { display: grid; grid-template-columns: 30px minmax(0, 1fr) 14px; align-items: center; gap: 10px; min-height: 42px; padding: 0 12px; border: 0; border-bottom: 1px solid var(--rule); background: transparent; color: var(--text); cursor: pointer; font-size: .82rem; font-weight: 650; text-align: left; }
+.locale-option:last-child { border-bottom: 0; }
+.locale-option:hover, .locale-option:focus-visible { color: var(--accent-ink); background: var(--accent); outline: 0; }
+.locale-option-code { font-family: var(--mono); font-size: .7rem; font-weight: 800; letter-spacing: .06em; }
+.locale-option-mark { color: var(--accent); font-size: .6rem; }
+.locale-option:hover .locale-option-mark, .locale-option:focus-visible .locale-option-mark { color: var(--accent-ink); }
 .notice { position: fixed; left: 50%; top: 80px; transform: translateX(-50%); z-index: 100; display: flex; align-items: center; gap: 18px; max-width: min(600px, calc(100vw - 28px)); padding: 13px 16px; background: var(--surface); border: var(--bw) solid var(--border); box-shadow: var(--step) var(--step) 0 var(--border); font-weight: 650; }
 .notice button { border: 0; background: none; cursor: pointer; font-size: 1.2rem; }
 

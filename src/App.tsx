@@ -19,6 +19,7 @@ import {
 import { downloadProjectZip } from "./lib/projects/runtime.js";
 import { CreateProject } from "./components/CreateProject.js";
 import { HelpPage } from "./components/HelpPage.js";
+import { LocaleSwitcher } from "./components/LocaleSwitcher.js";
 import { ProjectLibrary } from "./components/ProjectLibrary.js";
 import { ProjectOverview } from "./components/ProjectOverview.js";
 import { ProjectWizard } from "./components/ProjectWizard.js";
@@ -35,7 +36,7 @@ type AppRoute =
 const wizardStages = new Set<ProjectStage>(["source", "analysis", "cues", "sequences", "output", "executors", "extras", "review"]);
 
 export function App() {
-    const { locale, setLocale, t } = useI18n();
+    const { locale, t } = useI18n();
     const navigate = useNavigate();
     const location = useLocation();
     const route = useMemo(() => resolveAppRoute(location.pathname), [location.pathname]);
@@ -288,7 +289,7 @@ export function App() {
                 <button className="brand" type="button" onClick={() => navigate("/")} aria-label="Reaper2MA home"><span className="brand-mark">R2</span><span><strong>Reaper2MA</strong><small>{t("app.local")}</small></span></button>
                 <div className="header-controls">
                     <button className={`header-control help-control${route.kind === "help" ? " active" : ""}`} type="button" onClick={() => openHelp()} aria-label={t("action.help")} aria-current={route.kind === "help" ? "page" : undefined}><span aria-hidden="true">?</span><span>{t("action.help")}</span></button>
-                    <button className="header-control locale-control" type="button" aria-label={t("app.locale")} onClick={() => setLocale(locale === "fr" ? "en" : "fr")}>{locale.toUpperCase()}</button>
+                    <LocaleSwitcher />
                     <button className="header-control" type="button" onClick={cycleTheme} aria-label={t("app.theme")}>{theme === "system" ? "◐" : theme === "light" ? "☀" : "☾"}</button>
                 </div>
             </header>
