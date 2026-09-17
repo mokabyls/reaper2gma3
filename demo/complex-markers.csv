@@ -1,0 +1,664 @@
+#,Name,Start,End,Length,Color,Lane
+R1,Introduction,0.000,86.000,86.000,8E9AAF,0
+R2,Wand Song,86.000,164.768,78.768,7046A8,0
+R3,Comet Rider,164.768,242.248,77.480,F05235,0
+R4,Starfall March,242.248,307.995,65.748,F2C94C,0
+R5,Storybook Suite,307.995,441.876,133.881,20B9AD,0
+R6,Siren Squad,441.880,520.710,78.830,2878D0,0
+R7,Jungle Parade,520.710,566.368,45.658,F2994A,0
+R8,Wild Avenue,566.368,667.554,101.186,D64FA5,0
+R9,Tall Ships,664.870,797.829,132.959,176B69,0
+M1,[BPM_125] Start,0.000,,,,1
+M2,Pre-Start,3.775,,,,1
+M3,Pre-Rise,5.711,,,,1
+M4,[LAYER=Voice] VO IN,6.889,,,,1
+M5,[BUMP] Accent Note 1,6.942,,,,1
+M6,[BUMP] Accent Note 2,7.176,,,,1
+M7,[BUMP] Accent Note 3,7.371,,,,1
+M8,[BUMP] Accent Note 4,7.538,,,,1
+M9,[BUMP] Accent Note 5,7.676,,,,1
+M10,Motif Z - End,8.412,,,,1
+M11,[BUMP] Accent Note 5,10.768,,,,1
+M12,[BUMP] Accent Note 4,11.023,,,,1
+M13,[BUMP] Accent Note 3,11.258,,,,1
+M14,[BUMP] Accent Note 2,11.486,,,,1
+M15,[BUMP] Accent Note 1,12.401,,,,1
+M16,[BUMP] Accent Note 1,14.579,,,,1
+M17,[BUMP] Accent Note 2,14.858,,,,1
+M18,[BUMP] Accent Note 3,15.105,,,,1
+M19,[BUMP] Accent Note 4,15.369,,,,1
+M20,[BUMP] Accent Note 5,16.782,,,,1
+M21,[BUMP] Accent Note 5,18.386,,,,1
+M22,[BUMP] Accent Note 4,18.594,,,,1
+M23,[BUMP] Accent Note 3,18.738,,,,1
+M24,[BUMP] Accent Note 2,18.875,,,,1
+M25,[BUMP] Accent Note 1,19.103,,,,1
+M26,Part 1 Out - BREATHER,19.449,,,,1
+M27,MOTIF C End,20.144,,,,1
+M28,P2 PRE-BREATHER,20.865,,,,1
+M29,PART 2 BUILD,22.066,,,,1
+M30,[BUMP] Accent Note 1,22.319,,,,1
+M31,[BUMP] Accent Note 2,22.543,,,,1
+M32,[BUMP] Accent Note 3,22.815,,,,1
+M33,[BUMP] Accent Note 4,23.087,,,,1
+M34,[BUMP] Accent Note 4,26.176,,,,1
+M35,[BUMP] Accent Note 3,26.412,,,,1
+M36,[BUMP] Accent Note 2,26.569,,,,1
+M37,[BUMP] Accent Note 1,26.805,,,,1
+M38,VO - Tout,28.590,,,,1
+M39,Part 2- Motif A - End,29.504,,,,1
+M40,VO - Possible,29.637,,,,1
+M41,[BUMP] Accent Note 1,30.008,,,,1
+M42,[BUMP] Accent Note 2,30.207,,,,1
+M43,[BUMP] Accent Note 3,30.506,,,,1
+M44,[BUMP] Accent Note 4,30.762,,,,1
+M45,Part 2 - Motif B - End,33.493,,,,1
+M46,[BUMP] Accent Note 4,33.899,,,,1
+M47,[BUMP] Accent Note 3,34.080,,,,1
+M48,[BUMP] Accent Note 2,34.346,,,,1
+M49,Part 2 - Motif C - End,34.356,,,,1
+M50,Part 3 - Build,35.646,,,,1
+M51,[LAYER=Voice] VO Out,37.343,,,,1
+M52,Part 3 - Start,38.344,,,,1
+M53,,41.264,,,,1
+M54,,44.110,,,,1
+M55,Part 3 - Rise Up,45.959,,,,1
+M56,Part 3 - ACCENTS 1,46.668,,,,1
+M57,Part 3 - ACCENTS 2,47.408,,,,1
+M58,Part 3 - ACCENTS 3 - Rise,48.123,,,,1
+M59,Part 3 - ACCENTS 3 - Rise Build,48.838,,,,1
+M60,Part 3 - ACCENTS 3 - Rise End,49.735,,,,1
+M61,Part 3 - Breathe,49.988,,,,1
+M62,Part 3 - Breathe End,52.337,,,,1
+M63,Part 3 - Pre-Drop,52.861,,,,1
+M64,Part 3 - Part B - V1 - Drop,53.535,,,,1
+M65,Part 3 - Part B - Pre-V2A,60.426,,,,1
+M66,Part 3 - Part B - V2A,61.157,,,,1
+M67,Part 3 - Part B - Pre-V2B,64.261,,,,1
+M68,Part 3 - Part B - V2B,64.773,,,,1
+M69,Part 3 - Part B - V2 Transiants,66.345,,,,1
+M70,Part 3 - Part C - Pre-Violons,68.033,,,,1
+M71,Part 3 - Part C - Violons,68.740,,,,1
+M72,Part 3- Part C - Magic Lift Start,69.806,,,,1
+M73,Part 3- Part C - Magic Lift,70.595,,,,1
+M74,Part 3- Part C - Magic Lift End - Pre-V2,71.861,,,,1
+M75,Part 3- Part C - Magic Lift End - V2,72.592,,,,1
+M76,Part 3- Part C - Magic Lift 2,73.461,,,,1
+M77,Part 3- Part C - Magic Lift 2,74.474,,,,1
+M78,Part 3- Part C - Magic Lift 2 End - Final Rise,76.377,,,,1
+M79,FINAL START,76.803,,,,1
+M80,FINAL P2,78.377,,,,1
+M81,FINAL P2B,79.334,,,,1
+M82,FINAL FULL ORCHESTRA SUSTAIN,80.036,,,,1
+M83,FINAL END,83.731,,,,1
+M84,FINAL PIANO,84.206,,,,1
+M85,[LAYER=FX] Owl Theme,86.221,,,,1
+M86,Main theme,86.588,,,,1
+M87,[BPM_77] Start Main Theme Tempo,87.244,,,,1
+M88,,87.674,,,,1
+M89,,87.827,,,,1
+M90,,88.110,,,,1
+M91,,88.703,,,,1
+M92,,88.995,,,,1
+M93,,89.563,,,,1
+M94,,90.746,,,,1
+M95,,91.346,,,,1
+M96,,91.756,,,,1
+M97,,91.930,,,,1
+M98,,92.222,,,,1
+M99,,92.813,,,,1
+M100,[LAYER=Voice] Le Gardien,93.066,,,,1
+M101,Path Fly 1,93.571,,,,1
+M102,[LAYER=Voice] Le Gardien Fin,94.576,,,,1
+M103,Path Fly 1 End,95.535,,,,1
+M104,,95.729,,,,1
+M105,,96.060,,,,1
+M106,,96.471,,,,1
+M107,,96.659,,,,1
+M108,,96.963,,,,1
+M109,,97.469,,,,1
+M110,,97.738,,,,1
+M111,,98.338,,,,1
+M112,,98.651,,,,1
+M113,Breathe,99.263,,,,1
+M114,[LAYER=Voice] Young Wizard,100.321,,,,1
+M115,Magic Fly 1,101.397,,,,1
+M116,[LAYER=Voice] Young Wizard Fin,101.693,,,,1
+M117,Rise Up Harp,104.463,,,,1
+M118,Main Theme Drop,105.735,,,,1
+M119,Stars Path,108.829,,,,1
+M120,Main Theme Drop B,109.262,,,,1
+M121,Main Theme Drop B End,111.317,,,,1
+M122,[LAYER=Voice] Grand Mage,111.985,,,,1
+M123,PowWAND,112.686,,,,1
+M124,[LAYER=Voice] Grand Mage Fin,113.488,,,,1
+M125,,113.670,,,,1
+M126,,115.760,,,,1
+M127,Breathe,116.663,,,,1
+M128,Breathing,117.143,,,,1
+M129,[LAYER=Spell] Levitatus,117.488,,,,1
+M130,WS - Piano Rise,119.219,,,,1
+M131,[LAYER=Spell] Levitatus End,119.813,,,,1
+M132,WS - Piano Rise Drum Roll,120.558,,,,1
+M133,WS - Piano Rise End - Main Theme 2,122.751,,,,1
+M134,WS - Main Theme 2 Just After,123.376,,,,1
+M135,Magic Fly,126.400,,,,1
+M136,Magic Fly End,126.882,,,,1
+M137,[LAYER=Spell]  repulsio,128.882,,,,1
+M138,[LAYER=Spell]  repulsio end,130.943,,,,1
+M139,Main Theme 2 Last Play,131.418,,,,1
+M140,Main Theme 2 Break,134.768,,,,1
+M141,Main Theme 2 - Pre- Drums,135.438,,,,1
+M142,Main Theme 2 - Piano Sono,135.724,,,,1
+M143,,136.042,,,,1
+M144,,138.116,,,,1
+M145,[LAYER=Spell]  Invoco Lumina,138.322,,,,1
+M146,WS - Balais Theme,140.462,,,,1
+M147,[LAYER=Spell]  Invoco Lumina end,140.962,,,,1
+M148,[LAYER=Voice] Mme Messieurs,141.142,,,,1
+M149,[LAYER=Voice] Mme Messieurs end,143.951,,,,1
+M150,[LAYER=Spell]  Abraca Zappa,144.545,,,,1
+M151,WS - Balais Theme 2,145.174,,,,1
+M152,[LAYER=Spell]  Abraca Zappa end,146.562,,,,1
+M153,Build Up Main Theme 3,148.614,,,,1
+M154,[LAYER=Voice] Escadron 2 Start,148.683,,,,1
+M155,Main Theme 3,149.884,,,,1
+M156,[LAYER=Voice] Escadron 2 End,150.096,,,,1
+M157,,152.222,,,,1
+M158,,152.800,,,,1
+M159,,153.095,,,,1
+M160,,153.334,,,,1
+M161,,154.592,,,,1
+M162,,155.436,,,,1
+M163,,155.999,,,,1
+M164,[LAYER=Voice] Lutin Libre,156.152,,,,1
+M165,,156.292,,,,1
+M166,,156.745,,,,1
+M167,,158.410,,,,1
+M168,,158.578,,,,1
+M169,[LAYER=Voice] Lutin Libre Fin,158.663,,,,1
+M170,,159.115,,,,1
+M171,,159.266,,,,1
+M172,,159.569,,,,1
+M173,,160.107,,,,1
+M174,,160.460,,,,1
+M175,,161.014,,,,1
+M176,,161.605,,,,1
+M177,,161.902,,,,1
+M178,,162.191,,,,1
+M179,,162.802,,,,1
+M180,,163.851,,,,1
+M181,START,164.737,,,,1
+M182,[LAYER=FX] Alarme,164.739,,,,1
+M183,[LAYER=FX] Alarme,165.773,,,,1
+M184,[LAYER=FX] Alarme,166.742,,,,1
+M185,[LAYER=FX] Bip Noise Start,167.338,,,,1
+M186,[LAYER=FX] Alarme,167.701,,,,1
+M187,[LAYER=FX] Bip Noise End,168.414,,,,1
+M188,[LAYER=VOICE VO] Comet Rider,168.502,,,,1
+M189,Music Start,169.513,,,,1
+M190,Music Start Drums,171.018,,,,1
+M191,[BPM_152] Epic Start,172.818,,,,1
+M192,,174.385,,,,1
+M193,,175.482,,,,1
+M194,Epic Start HITS,175.951,,,,0
+M195,,176.760,,,,1
+M196,,177.315,,,,1
+M197,,177.751,,,,1
+M198,,178.066,,,,1
+M199,Epic Hits 2,179.125,,,,1
+M200,,180.865,,,,1
+M201,,182.259,,,,1
+M202,[LAYER=VOICE VO] Comet Rider Off,183.635,,,,1
+M203,,183.967,,,,1
+M204,Main Theme Go,185.737,,,,1
+M205,,195.211,,,,1
+M206,,196.416,,,,1
+M207,,196.589,,,,1
+M208,,197.592,,,,1
+M209,BREATHE,198.378,,,,1
+M210,BREATHE PART 2,204.877,,,,1
+M211,,206.128,,,,1
+M212,,206.520,,,,1
+M213,,208.149,,,,1
+M214,,209.432,,,,1
+M215,BREATH PART 2 END DOWN PIANO,209.881,,,,1
+M216,,213.555,,,,1
+M217,,226.139,,,,1
+M218,,232.448,,,,1
+M219,,233.905,,,,1
+M220,,234.356,,,,1
+M221,,234.699,,,,1
+M222,,235.273,,,,1
+M223,[LAYER=VOICE VO] Comet Rider 2,235.327,,,,1
+M224,,235.985,,,,1
+M225,,236.911,,,,1
+M226,[LAYER=VOICE VO] Comet Rider 2 Off,238.324,,,,1
+M227,,240.151,,,,1
+M228,,240.428,,,,1
+M229,END,240.522,,,,1
+M230,[R4][LAYER=Voice] Droide 1,240.652,,,,1
+M231,[R4][LAYER=Voice]  BIP 1,242.394,,,,1
+M232,[R4][LAYER=Voice] BIP 2,242.675,,,,1
+M233,[LAYER=Voice] Rex Droide,242.906,,,,1
+M234,[LAYER=Voice] Rex Droide END,243.494,,,,1
+M235,[LAYER=Voice] Rex Direction Lune Verte,243.763,,,,1
+M236,[LAYER=Voice]  Rex Direction Lune Verte End,245.209,,,,1
+M237,[LAYER=Voice]  Vitesse Lumière,245.388,,,,1
+M238,[BPM_83] SM Start Main Theme,246.374,,,,1
+M239,SM Main Theme Start,248.808,,,,1
+M240,[LAYER=Sfx] LASER,249.363,,,,1
+M241,[LAYER=Sfx] LASER 2,249.539,,,,1
+M242,[LAYER=Sfx] LASER 3,249.857,,,,1
+M243,[LAYER=Sfx] LASER 4,250.272,,,,1
+M244,[LAYER=Sfx] LASER 5,250.438,,,,1
+M245,[LAYER=Sfx] LASER 6,250.658,,,,1
+M246,[LAYER=Sfx] LASER 7,252.127,,,,1
+M247,Starfall Refrain Pre,252.701,,,,1
+M248,Starfall Refrain,253.477,,,,1
+M249,,260.445,,,,1
+M250,,260.588,,,,1
+M251,,260.718,,,,1
+M252,,260.889,,,,1
+M253,,261.074,,,,1
+M254,[LAYER=Sfx] Spaceship,262.828,,,,1
+M255,Starfall Refrain 2,262.895,,,,1
+M256,,264.149,,,,1
+M257,,265.337,,,,1
+M258,,265.907,,,,1
+M259,,267.160,,,,1
+M260,,267.746,,,,1
+M261,,268.316,,,,1
+M262,,269.488,,,,1
+M263,Main Theme Ending,270.660,,,,1
+M264,Transition Rebelle Theme,274.027,,,,1
+M265,[LAYER=Sfx] Spaceship 2,275.105,,,,1
+M266,Rebelle Theme Build Up,278.217,,,,1
+M267,[LAYER=Sfx] Spaceship 2 End,279.222,,,,1
+M268,[BPM_100] Transition Rebelle,280.786,,,,1
+M269,[LAYER=Sfx] Alarm 1,281.223,,,,1
+M270,[LAYER=Sfx] Alarm 2,283.418,,,,1
+M271,[LAYER=Sfx] Alarm 3,285.468,,,,1
+M272,[LAYER=Sfx] Alarm 4,287.695,,,,1
+M273,[LAYER=Sfx] Alarm 5,289.888,,,,1
+M274,[LAYER=Sfx] Alarm 6,291.887,,,,1
+M275,,292.562,,,,1
+M276,,296.659,,,,1
+M277,,297.284,,,,1
+M278,,297.857,,,,1
+M279,,298.759,,,,1
+M280,,299.124,,,,1
+M281,,299.905,,,,1
+M282,,300.252,,,,1
+M283,,301.138,,,,1
+M284,,301.398,,,,1
+M285,,301.988,,,,1
+M286,,302.631,,,,1
+M287,Dark Visor Breathe 1,303.340,,,,1
+M288,[BPM_83] Dark Visor Breathe 2,305.746,,,,1
+M289,Dark Visor Breathe 2 End,307.866,,,,1
+M290,[LAYER=Voice] Bonhomme Samantha,310.216,,,,1
+M291,[LAYER=Voice] Bonhomme Pres,319.597,,,,1
+M292,,322.587,,,,1
+M293,[LAYER=Voice] Ferraille,325.498,,,,1
+M294,,326.149,,,,1
+M295,,326.756,,,,1
+M296,,328.648,,,,1
+M297,,329.017,,,,1
+M298,,329.469,,,,1
+M299,[LAYER=Voice] Ferraille End,330.860,,,,1
+M300,[LAYER=Voice] Bestiole,331.491,,,,1
+M301,[LAYER=Sfx] Magic Chimes,341.198,,,,1
+M302,[LAYER=Voice] Bestiole End,342.154,,,,1
+M303,[LAYER=Voice] Sans Souci,343.488,,,,1
+M304,[LAYER=Voice] Jouets,350.048,,,,1
+M305,[LAYER=Voice] Enchante,354.265,,,,1
+M306,[LAYER=Voice] Bonhomme Marama,360.409,,,,1
+M307,[LAYER=Voice] Bonhomme Je suis Marama,364.296,,,,1
+M308,Marama Pre-Refrain,366.941,,,,1
+M309,[BPM_83],367.531,,,,1
+M310,,370.437,,,,1
+M311,,373.362,,,,1
+M312,,376.286,,,,1
+M313,,377.682,,,,1
+M314,Refrain 1,378.867,,,,1
+M315,,384.546,,,,1
+M316,Refrain 2,390.300,,,,1
+M317,,396.009,,,,1
+M318,,398.858,,,,1
+M319,,401.006,,,,1
+M320,Refrain 3,401.707,,,,1
+M321,,407.456,,,,1
+M322,,412.426,,,,1
+M323,Refrain 4,413.158,,,,1
+M324,,418.834,,,,1
+M325,Reviendrais,420.969,,,,1
+M326,Reviendrais Build Up,422.406,,,,1
+M327,Breathe,423.145,,,,1
+M328,JE,423.441,,,,1
+M329,SUIS,423.864,,,,1
+M330,MARAMA,424.392,,,,1
+M331,NAAAAAAA,424.983,,,,1
+M332,NAA BUILD UP,426.019,,,,1
+M333,Hey Yaaa,427.392,,,,1
+M334,,428.126,,,,1
+M335,,429.554,,,,1
+M336,,429.845,,,,1
+M337,Hey Yaaa 2,430.243,,,,1
+M338,,430.972,,,,1
+M339,,432.409,,,,1
+M340,Hey Yaaa 3,433.157,,,,1
+M341,,433.847,,,,1
+M342,Moamo,434.373,,,,1
+M343,,435.973,,,,1
+M344,ENDING BUILD UP,436.303,,,,1
+M345,ENDING BUILD UP HIT,437.467,,,,1
+M346,ENDING BUILD UP 2,439.163,,,,1
+M347,End CHUUUUT,440.087,,,,1
+M348,,441.896,,,,1
+M349,[LAYER=Sfx] TV NOISE,443.080,,,,1
+M350,[LAYER=Sfx] TV NOISE PEOPLE,444.092,,,,1
+M351,[LAYER=Sfx] TV NOISE END,445.831,,,,1
+M352,[LAYER=Sfx] TOTALLY 1,446.228,,,,1
+M353,[LAYER=Sfx] TOTALLY 2,446.398,,,,1
+M354,[LAYER=Sfx] TOTALLY 3,446.531,,,,1
+M355,[LAYER=Sfx] TOTALLY 4,446.889,,,,1
+M356,[LAYER=Sfx] TOTALLY 5,447.012,,,,1
+M357,[LAYER=Sfx] TOTALLY 6,447.133,,,,1
+M358,[LAYER=Voice] Rassemblement,447.344,,,,1
+M359,[LAYER=Sfx|PART] TOTALLY 6 End,447.378,,,,1
+M360,[LAYER=SFX] MAGIC,447.639,,,,1
+M361,[LAYER=Voice] Chef besoin nous,449.136,,,,1
+M362,PRE-START,449.716,,,,1
+M363,[BPM_94.87] START,450.153,,,,1
+M364,[LAYER=Voice] Chef besoin nous end,450.642,,,,1
+M365,[LAYER=Voice] Part en mission,450.979,,,,1
+M366,,451.257,,,,1
+M367,,451.419,,,,1
+M368,,452.688,,,,1
+M369,[LAYER=Voice] Part en missio end,453.176,,,,1
+M370,PRE-INTRO,454.046,,,,1
+M371,PRE-INTRO HIT,454.374,,,,1
+M372,PRE-INTRO HIT,454.589,,,,1
+M373,PRE-INTRO HIT,454.851,,,,1
+M374,PRE-INTRO,455.206,,,,1
+M375,,458.859,,,,1
+M376,PRE-REFRAIN,459.080,,,,1
+M377,REFRAIN,460.218,,,,1
+M378,REFRAIN Part B,465.280,,,,1
+M379,PRE-CHORUS,467.826,,,,1
+M380,BREATHE,469.060,,,,1
+M381,HIT 1,470.306,,,,1
+M382,HIT 1 End,471.270,,,,1
+M383,HIT 1B,472.410,,,,1
+M384,HIT 1C,472.525,,,,1
+M385,HIT 2,472.845,,,,1
+M386,HIT 2 End,473.978,,,,1
+M387,HIT 2B,474.941,,,,1
+M388,HIT 2C,475.044,,,,1
+M389,HIT 3,475.376,,,,1
+M390,HIT 3 End,476.332,,,,1
+M391,HIT 3B,477.460,,,,1
+M392,HIT 3C,477.600,,,,1
+M393,HIT 4,477.907,,,,1
+M394,HIT 4 End,478.859,,,,1
+M395,HIT 4B,479.961,,,,1
+M396,HIT 4C,480.115,,,,1
+M397,PRE-REFRAIN,480.443,,,,1
+M398,,482.861,,,,1
+M399,,483.132,,,,1
+M400,,483.277,,,,1
+M401,,483.551,,,,1
+M402,,483.838,,,,1
+M403,PRE-REFRAIN HIT,484.088,,,,1
+M404,PRE-REFRAIN FINAL HIT,484.532,,,,1
+M405,REFRAIN VO 1,484.854,,,,1
+M406,REFRAIN VO 1 GO,485.501,,,,1
+M407,,487.393,,,,1
+M408,,489.921,,,,1
+M409,Ascending Orchestral Hits 1,493.084,,,,1
+M410,Ascending Orchestral Hits 2,493.400,,,,1
+M411,Ascending Orchestral Hits 3,493.710,,,,1
+M412,Ascending Orchestral Hits 4,494.035,,,,1
+M413,BREAK,494.326,,,,1
+M414,PILOTE,494.533,,,,1
+M415,PRE-COSTAUD,495.592,,,,1
+M416,COSTAUD,495.834,,,,1
+M417,PRE-CHASE,496.870,,,,1
+M418,CHASE,497.115,,,,1
+M419,PRE-GALET,498.107,,,,1
+M420,GALET,498.355,,,,1
+M421,PRE-VAGUE,499.397,,,,1
+M422,VAGUE,499.586,,,,1
+M423,PRE-AILE,500.659,,,,1
+M424,AILE,500.943,,,,1
+M425,PRE-MATE,501.927,,,,1
+M426,MATE,502.246,,,,1
+M427,LAST BUILD UP,502.553,,,,1
+M428,BIIIIIIIG,503.177,,,,1
+M429,STOMP,504.307,,,,1
+M430,LAST PRE REFRAIN,504.617,,,,1
+M431,LAST REFRAIN,505.690,,,,1
+M432,,508.232,,,,1
+M433,ENDING START,510.789,,,,1
+M434,ENDING HIT,513.316,,,,1
+M435,,513.633,,,,1
+M436,,513.957,,,,1
+M437,[R7][Layer=Voice] Roi Auparavant,514.235,,,,1
+M438,,514.256,,,,1
+M439,,514.519,,,,0
+M440,,515.301,,,,1
+M441,,515.842,,,,1
+M442,,516.271,,,,1
+M443,,517.887,,,,1
+M444,[R7][Layer=Voice] Roi Tout le monde,518.037,,,,1
+M445,END MUSIC,518.293,,,,1
+M446,[R7][Layer=Voice] Roi Je vous pris,519.224,,,,1
+M447,END,519.891,,,,1
+M448,[R7][Layer=Voice] Roi Je vous remercis,519.985,,,,1
+M449,[R7][Layer=Voice] Roi Je vous remercis end,520.666,,,,1
+M450,[BPM_127] Refrain Instru 1,521.044,,,,1
+M451,[R7][Layer=Voice] Roi J'aime Gazelle,521.994,,,,1
+M452,Refrain Instru 2,528.606,,,,1
+M453,Transition vers refrain,534.271,,,,1
+M454,[R7][Layer=Voice] Roi FIN,535.323,,,,1
+M455,Pre-Refrain Sub Impact,535.685,,,,1
+M456,Refrain 1A,536.171,,,,1
+M457,Refrain 1B,543.731,,,,1
+M458,Refrain 2A,551.285,,,,1
+M459,Refrain 2B,558.841,,,,1
+M460,Pont,564.488,,,,1
+M461,[R8] Pre-Roll,565.413,,,,1
+M462,[BPM_118] Wild Avenue Start - Ho 1A,566.368,,,,1
+M463,Ho 1B,566.710,,,,1
+M464,Ho 1C,566.867,,,,1
+M465,[Layer=Voice] Lapin Malin 1s2,567.146,,,,1
+M466,Ho 1D,567.207,,,,1
+M467,Ho 1E,567.418,,,,1
+M468,Ho 1F,567.599,,,,1
+M469,Ho 1G,567.925,,,,1
+M470,,568.207,,,,1
+M471,Ho 2A,570.430,,,,1
+M472,Ho 2B,570.807,,,,1
+M473,[Layer=Voice] Renard crétin 1s2,570.914,,,,1
+M474,Ho 2C,571.040,,,,1
+M475,Ho 2D,571.540,,,,1
+M476,Ho 2G,571.900,,,,1
+M477,Ho 3A,574.434,,,,1
+M478,Ho 3B,574.802,,,,1
+M479,Ho 3C,575.105,,,,1
+M480,[Layer=Voice] Carotte Trésor 3s2,575.142,,,,1
+M481,Ho 3D,575.241,,,,1
+M482,Ho 3E,575.463,,,,1
+M483,Ho 3G,575.914,,,,1
+M484,[BPM_118] Ho Kick 4A,578.452,,,,1
+M485,Ho Contre-Kick 4B,578.794,,,,1
+M486,Ho Contre-Kick 4C,579.205,,,,1
+M487,Ho Contre-Kick 4D,579.532,,,,1
+M488,Ho Kick 4E,579.948,,,,1
+M489,Pre-Couplet 4T,580.455,,,,1
+M490,,580.954,,,,1
+M491,Couplet A,582.450,,,,1
+M492,Couplet B,590.464,,,,1
+M493,Couplet C - Clap,598.465,,,,1
+M494,Couplet D - Clap,606.475,,,,1
+M495,Pre-Refrain,612.522,,,,1
+M496,VO I Wont Give Up,613.754,,,,1
+M497,REFRAIN 1,614.521,,,,1
+M498,REFRAIN 1B,622.530,,,,1
+M499,PRE-REFRAIN 2,628.553,,,,1
+M500,I wong give up 2,629.780,,,,1
+M501,REFRAIN 2,630.546,,,,1
+M502,REFRAIN 2B,638.564,,,,1
+M503,PRE-BREAK,644.546,,,,1
+M504,Ho 5A,646.590,,,,1
+M505,Ho 5B,646.966,,,,1
+M506,Ho 5C,647.342,,,,1
+M507,Ho 5D,647.712,,,,1
+M508,Ho 5E,648.052,,,,1
+M509,Tente Tout,649.062,,,,1
+M510,Ho 6A,650.587,,,,1
+M511,Ho 6B,650.956,,,,1
+M512,Ho 6C,651.313,,,,1
+M513,Ho 6D,651.707,,,,1
+M514,Ho 6E,652.040,,,,1
+M515,Tente Tout 2,653.008,,,,1
+M516,Ho 7A,654.586,,,,1
+M517,Ho 7B,654.960,,,,1
+M518,Ho 7C,655.352,,,,1
+M519,Ho 7D,655.709,,,,1
+M520,Ho 7E,656.101,,,,1
+M521,Tente Tout 3,657.064,,,,1
+M522,Ho 8A,658.596,,,,1
+M523,Ho 8B,658.953,,,,1
+M524,Ho 8C,659.327,,,,1
+M525,Ho 8D,659.737,,,,1
+M526,Ho 8E,660.058,,,,1
+M527,VO End - Deb Coucou,661.216,,,,1
+M528,Chord End 1,662.607,,,,1
+M529,Chord End 2,663.605,,,,1
+M530,[BPM_140] Wild Avenue End - CANON 1,664.870,,,,1
+M531,[BPM_140],668.656,,,,1
+M532,[BUMP|TempRelease_1000] Canon,670.775,,,,1
+M533,[BUMP|TempRelease_1000] Canon,674.072,,,,1
+M534,[BPM_140] MAIN THEME GO,675.039,,,,1
+M535,[BUMP|TempRelease_1000] Canon,676.005,,,,1
+M536,,681.994,,,,1
+M537,,685.335,,,,1
+M538,,688.753,,,,1
+M539,,689.629,,,,1
+M540,,690.483,,,,1
+M541,,690.885,,,,1
+M542,,691.323,,,,1
+M543,,691.767,,,,1
+M544,,692.163,,,,1
+M545,,693.051,,,,1
+M546,,693.885,,,,1
+M547,,694.308,,,,1
+M548,Double Hit,694.737,,,,1
+M549,,695.000,,,,1
+M550,,695.177,,,,1
+M551,,695.590,,,,1
+M552,,696.443,,,,1
+M553,,697.258,,,,1
+M554,,697.687,,,,1
+M555,,698.094,,,,1
+M556,,698.585,,,,1
+M557,Double Hit,698.990,,,,1
+M558,,699.844,,,,1
+M559,,700.697,,,,1
+M560,PRE-BUILD CAPTAIN,701.561,,,,1
+M561,[Layer=Voice] Captain Female,702.855,,,,1
+M562,CAPTAIN HIT,703.260,,,,1
+M563,CAPTAIN HIT DOWN,703.795,,,,1
+M564,CAPTAIN HIT 2,704.959,,,,1
+M565,CAPTAIN HIT 2 DOWN,705.437,,,,1
+M566,,706.665,,,,1
+M567,,708.358,,,,1
+M568,[Layer=Voice] Captain Female End,708.636,,,,1
+M569,,708.975,,,,1
+M570,,709.238,,,,1
+M571,,709.390,,,,1
+M572,,710.066,,,,1
+M573,,710.345,,,,1
+M574,,710.684,,,,1
+M575,[Layer=Voice] Captain OUi,710.800,,,,1
+M576,,711.098,,,,1
+M577,,711.755,,,,1
+M578,,712.033,,,,1
+M579,,712.372,,,,1
+M580,,712.663,,,,1
+M581,[Layer=Voice] Captain Raison End,712.945,,,,1
+M582,DOWN BEF CAPTAIN SPEACH,713.478,,,,1
+M583,,713.737,,,,1
+M584,,714.083,,,,1
+M585,[Layer=Voice] Captain Speach Start,714.228,,,,1
+M586,Captain Speach Start,714.362,,,,1
+M587,Pont,715.281,,,,1
+M588,,721.997,,,,1
+M589,[Layer=Voice] Captain Speach End,723.733,,,,1
+M590,REFRAIN Final 1,728.828,,,,1
+M591,,729.669,,,,1
+M592,,730.512,,,,1
+M593,,730.776,,,,1
+M594,,731.001,,,,1
+M595,,731.375,,,,1
+M596,,731.597,,,,1
+M597,REFRAIN Final 1B,732.212,,,,1
+M598,,733.090,,,,1
+M599,,733.923,,,,1
+M600,,734.213,,,,1
+M601,,734.510,,,,1
+M602,,734.780,,,,1
+M603,,734.985,,,,1
+M604,REMONTADA,735.276,,,,1
+M605,REFRAIN Final 2,735.616,,,,1
+M606,,736.496,,,,1
+M607,,737.343,,,,1
+M608,,737.685,,,,1
+M609,,737.966,,,,1
+M610,,738.211,,,,1
+M611,,738.369,,,,1
+M612,REFRAIN Final 2B,739.046,,,,1
+M613,,739.478,,,,1
+M614,,739.900,,,,1
+M615,,740.343,,,,1
+M616,,740.742,,,,1
+M617,,741.023,,,,1
+M618,,741.312,,,,1
+M619,,741.590,,,,1
+M620,END Tall Ships 1 Canon,741.872,,,,1
+M621,ECHAFAUT,742.757,,,,1
+M622,REP ECHAFAUT,743.695,,,,1
+M623,ECHAFAUT B,744.971,,,,1
+M624,ECHAFAUT B2,745.381,,,,1
+M625,,747.136,,,,1
+M626,,749.650,,,,1
+M627,COLOR PART,750.574,,,,1
+M628,,751.417,,,,1
+M629,SOLO DRUMS A,752.282,,,,1
+M630,SOLO DRUMS A END,755.263,,,,1
+M631,SOLO DRUMS B,755.697,,,,1
+M632,RISE UP PRE REFRAIN,758.261,,,,1
+M633,MAIN THEME 2 GO,759.126,,,,1
+M634,MAIN THEME 2 DRUMS,765.053,,,,1
+M635,MAIN THEME 2B GO,765.877,,,,1
+M636,MAIN THEME 2B DRUMS,771.866,,,,1
+M637,MAIN THEME 2C Go,772.742,,,,1
+M638,MAIN THEME 2C DRUMS,778.663,,,,1
+M639,MAIN THEME LAST PART,779.551,,,,1
+M640,MAIN THEME ORCHASTRA LONG,782.946,,,,1
+M641,FALSE END,784.628,,,,1
+M642,CUIVRE,785.419,,,,1
+M643,REAL END START,786.331,,,,1
+M644,,788.866,,,,1
+M645,,789.131,,,,1
+M646,,789.440,,,,1
+M647,,789.738,,,,1
+M648,ECHAFAUT NOT THE LAST,790.328,,,,1
+M649,REAL END RISE-LAST,790.581,,,,1
+M650,,791.449,,,,1
+M651,,792.360,,,,1
+M652,,793.167,,,,1
+M653,ECHAFAUT LAST,793.561,,,,1
+M654,HIT END,794.013,,,,1

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#f5f5f7" />
+        <meta name="description" content="Convert REAPER markers and regions to grandMA3 locally in your browser." />
+        <link rel="icon" href="/src/lib/assets/favicon.svg" />
+        <title>Reaper2MA</title>
+        <script>
+            (() => {
+                try {
+                    const preferences = JSON.parse(localStorage.getItem("reaper2ma:ui:v1") || "{}");
+                    if (preferences.theme && preferences.theme !== "system") document.documentElement.dataset.theme = preferences.theme;
+                } catch {}
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>

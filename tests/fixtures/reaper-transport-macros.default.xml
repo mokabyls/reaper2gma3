@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GMA3 DataVersion="2.4.2.2">
+    <Macro Name="REAPER - REWIND" Guid="A0 7A 88 A4 E8 DF C7 38 54 81 68 57 4F 3C 18 E0">
+        <MacroLine Guid="D9 31 26 BC 17 76 22 05 A5 FF 59 57 96 3D CB 69" Command="SendOSC 1 &quot;/action,i,40042&quot;"/>
+    </Macro>
+    <Macro Name="REAPER - PLAY" Guid="15 32 E1 3A 95 6C E4 01 F9 1C 3F 96 A9 B1 2E 9B">
+        <MacroLine Guid="4D 28 D1 C2 D7 28 0A 4C 8D 1E CF 55 77 5D 46 E8" Command="SendOSC 1 &quot;/play,i,1&quot;"/>
+    </Macro>
+    <Macro Name="REAPER - PAUSE" Guid="A8 6A 06 82 E4 F9 2D 8C 22 AD 24 72 26 EE F4 51">
+        <MacroLine Guid="70 DB 05 CC 7A 2F 16 9F 76 0B 8C 32 74 CC AE 8C" Command="SendOSC 1 &quot;/pause,i,1&quot;"/>
+    </Macro>
+    <Macro Name="REAPER - STOP" Guid="18 9C 1E A5 F4 98 C3 8A 30 AC 8A 8D AA 12 C0 81">
+        <MacroLine Guid="25 9E 3B A2 20 05 41 CE 1B 82 4D 7C 7E BB 96 96" Command="SendOSC 1 &quot;/stop,i,1&quot;"/>
+    </Macro>
+    <Macro Name="REAPER - NEXT MARKER" Guid="87 9A 45 95 30 C5 2D 1A 65 68 69 05 A4 BE E4 8B">
+        <MacroLine Guid="9B C8 5C 03 60 10 0C 86 77 DC 1A 4C F5 75 C4 5E" Command="SendOSC 1 &quot;/action,i,40173&quot;"/>
+    </Macro>
+    <Macro Name="REAPER - PREV MARKER" Guid="63 59 DE EA A0 48 71 4D 5E BC 0E B2 4E EE 8E 89">
+        <MacroLine Guid="D5 D1 71 2B F4 29 B9 12 F2 06 C9 F8 5C BA CD A9" Command="SendOSC 1 &quot;/action,i,40172&quot;"/>
+    </Macro>
+    <Macro Name="REAPER - NEXT REGION" Guid="26 B1 62 76 30 55 E9 FA 22 D9 F2 B7 E9 38 06 E2">
+        <MacroLine Guid="8A 7D 0C 88 29 ED 04 72 56 87 8D 60 6B 36 D3 BA" Command="SendOSC 1 &quot;/ma3/region/next,i,1&quot;"/>
+    </Macro>
+    <Macro Name="REAPER - PREV REGION" Guid="08 33 28 C1 A5 D0 8A 22 15 7C 65 1C FB 7C 9F 04">
+        <MacroLine Guid="02 83 20 28 F0 BC 7D CB 1E 2A D7 BB 39 B9 4F F5" Command="SendOSC 1 &quot;/ma3/region/previous,i,1&quot;"/>
+    </Macro>
+</GMA3>

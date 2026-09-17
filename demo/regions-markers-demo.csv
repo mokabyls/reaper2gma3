@@ -1,0 +1,12 @@
+#,Name,Start,End,Length,Color
+R1,Introduction,0.000,86.000,86.000,
+R2,Introduction - Sub Region,4.500,60.000,55.500,D93D00
+M1,Introduction,0.000,,,
+M2,Début Récit,7.000,,,
+M3,Récit Enfance,10.800,,,
+M4,[BUMP|Release_250|FadeFromX_0|FadeFromY_1] Blanc,13.810,,,
+M5,Intro Musique,38.131,,,F2FF00
+M6,Montée,46.000,,,F2FF00
+M7,Fin montée,50.000,,,F2FF00
+M8,[BPM_98|OFF_R1|OFF_R2] Wand Song Deb,86.000,,,00BFFF
+M9,Révélation,93.500,,,00BFFF

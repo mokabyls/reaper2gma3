@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reaper2MA Conversion"
+  short_description: "Maintain CSV-to-grandMA3 conversion rules"
+  default_prompt: "Use $reaper2ma-conversion to modify or verify the CSV-to-grandMA3 XML conversion behavior."
