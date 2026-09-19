@@ -253,3 +253,7 @@ Known technical watchpoints:
 - The app depends on browser IndexedDB and Storage APIs; private browsing policies differ by browser.
 - Canvas rendering is optimized for many nearby markers, but very large real show files should still be profiled on older mobile hardware.
 - Storage sync, Google account integration and DJ/metronome controls are intentionally deferred.
+
+## Downloadable help resources (2026-09-19)
+
+The bilingual help page starts with a demos and REAPER plugin section: two CSV downloads, two REAPER projects, and the optional Beat Visualizer Lua script with installation instructions. `HelpDownloads.tsx` imports the original files from `demo/` and `reaper/` using Vite `?url&no-inline`, so production emits real downloadable files with base-aware URLs and no manually synchronized copies. Download attributes preserve the original filenames. The current Vite production base is `/reaper2gma3/` (the `/reaper2ma/` references above are historical).

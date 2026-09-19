@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { HelpDownloads, downloadsTitle } from "./HelpDownloads.js";
 import { useI18n, type Locale } from "../i18n.js";
 import reaperMarkersImage from "../lib/assets/reaper-markers.webp";
 import grandma3TimecodeImage from "../lib/assets/grandma3-timecode.webp";
@@ -687,6 +688,9 @@ export function HelpPage({ onBack, initialSection }: { onBack: () => void; initi
             </div>
 
             <nav className="help-toc" aria-label={content.tocLabel}>
+                <button type="button" onClick={() => document.getElementById("downloads")?.scrollIntoView?.({ behavior: "smooth" })}>
+                    {downloadsTitle[locale]}
+                </button>
                 <button type="button" onClick={() => document.getElementById(content.exportTutorial.id)?.scrollIntoView?.({ behavior: "smooth" })}>
                     {content.exportTutorial.title}
                 </button>
@@ -699,6 +703,8 @@ export function HelpPage({ onBack, initialSection }: { onBack: () => void; initi
                     {content.consoleGuide.title}
                 </button>
             </nav>
+
+            <HelpDownloads locale={locale} />
 
             <section className="help-tutorial" id={content.exportTutorial.id} aria-labelledby={`${content.exportTutorial.id}-title`}>
                 <header>

@@ -660,3 +660,8 @@ select, input[type="text"], input[type="number"], input[type="search"] { color: 
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+.help-downloads h3 { font-size: 1rem; }
+.help-downloads a { padding-block: 8px; overflow-wrap: anywhere; max-width: 100%; }
+.help-downloads ol { padding-left: 1.2rem; font-size: .8rem; color: var(--muted); line-height: 1.6; }
+.help-downloads li + li { margin-top: 10px; }
